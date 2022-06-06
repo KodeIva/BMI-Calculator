@@ -12,16 +12,16 @@ calculate.addEventListener('click', function() {
   yourBMI.innerHTML = `Your BMI is: <span>${result.toFixed(2)}</span>`
   console.log(result);
     if(result < 18.5) {
-     p.textContent = 'You are under weight! Eating three times per day healthy foods rich in proteins, carbohydrates and fats combined with exercises and healthy lifestyle can help to gain better weight'
+     p.textContent = 'You are underweight! Eating three times per day healthy foods rich in proteins, carbohydrates and fats combined with exercises and a healthy lifestyle can help to gain better weight'
      p.style.color = 'orange'
     } else if(result >= 18.5 && result < 24.9) {
      p.textContent = 'You are within your normal weight. Keep it up!'
      p.style.color = 'green'
     } else if(result >= 25 && result < 29.9) {
-     p.textContent = 'You are over weight! Walking 10 000 steps a day can help lower weight and your BMI, withous stressing your body wist vigorous cardios.  '
+     p.textContent = 'You are overweight! Walking 10 000 steps a day can help lower weight and your BMI, without stressing your body wist vigorous cardios.'
      p.style.color = 'orangered'
     } else if(result >= 30) {
-     p.textContent = 'You are over obese!!! Healthier eating habits and lifestyle are strongly recommended. Exercising on daily basis is of great importance. Walk and use steps in every possible ocasion.'
+     p.textContent = 'You are obese!!! Healthier eating habits and lifestyle are strongly recommended. Exercising on a daily basis is of great importance. Walk and use steps in every possible occasion.'
      p.style.color = 'red'
      p.style.fontStyle = 'i'
     }
