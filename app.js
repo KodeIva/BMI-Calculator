@@ -7,7 +7,6 @@ let result = document.querySelector('.result')
 
 calculate.addEventListener('click', function() {
  if(height.value != '' && weight.value != '') {
-  //let result = Number(weight.value / (height.value * height.value) * 10000)
   let result = Number(weight.value / (height.value/100 * height.value/100))
   yourBMI.innerHTML = `Your BMI is: <span>${result.toFixed(2)}</span>`
   console.log(result);
@@ -23,7 +22,6 @@ calculate.addEventListener('click', function() {
     } else if(result >= 30) {
      p.textContent = 'You are obese!!! Healthier eating habits and lifestyle are strongly recommended. Exercising on a daily basis is of great importance. Walk and use steps in every possible occasion.'
      p.style.color = 'red'
-     p.style.fontStyle = 'i'
     }
  } else {
    if(height === '' || isNaN(height)) {
