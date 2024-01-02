@@ -8,15 +8,16 @@ body {
  background: linear-gradient(to right, #BFE6BA, #D3959B); 
  font-family: 'Josefin Sans', sans-serif;
  color: white;
- height: 100vh;
+ height: auto;
  font-weight: 800;
  display: flex;
  justify-content: center;
  align-items: center;
 }
 #container {
+ background-color: #bfe6ba;
  width: 70%;
- height: 900px;
+ height: auto;
  display: flex;
  flex-direction: column;
  justify-content: center;
@@ -29,9 +30,12 @@ body {
  justify-content: center;
  align-items: center;
  width: 90%;
- height: 550px;
+ 
  margin: 10px;
  padding: 10px;border-radius: 15px;
+}
+#calculator {
+ height: auto;
 }
 h2 {
  font-size: 45px;
@@ -96,12 +100,12 @@ span {
  font-size: 30px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
  h2 {
-  font-size: 30px;
+  font-size: 26px;
  }
  #yourBMI {
-  font-size: 30px;
+  font-size: 20px;
  }
  li {
   font-size: 20px
