@@ -68,6 +68,7 @@ input {
 #calculate:hover {
  background-color: #bfe6ba;
  color: white;
+ cursor: pointer;
 }
 #yourBMI {
  font-size: 30px;
