@@ -7,7 +7,7 @@ BMI Calculator app calculates Body Mass Index based on person's weight and hight
 
 ## Screenshots
  
-
+![](screenshot.jpg)
 
 
 
