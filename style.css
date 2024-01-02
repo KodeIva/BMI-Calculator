@@ -15,7 +15,7 @@ body {
  align-items: center;
 }
 #container {
- background-color: #bfe6ba;
+ margin: 20px 0px;
  width: 70%;
  height: auto;
  display: flex;
